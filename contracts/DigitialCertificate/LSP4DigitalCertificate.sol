@@ -4,9 +4,11 @@ pragma solidity ^0.6.0;
 // modules
 import "erc725/contracts/ERC725/ERC725Y.sol";
 import "../Tokens/ERC777-UniversalReceiver.sol";
-import "@openzeppelin/contracts/utils/Pausable.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/utils/EnumerableSet.sol";
+
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Pausable.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/EnumerableSet.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol";
+
 
 
 contract LSP4DigitalCertificate is Pausable, ERC725Y, ERC777UniversalReceiver {
